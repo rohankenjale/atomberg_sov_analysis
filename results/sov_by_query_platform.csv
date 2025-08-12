@@ -1,0 +1,31 @@
+query,platform,brand,mentions,sov_mentions_pct,engagement,sov_engagement_pct,positive_mentions,sopv_pct
+BLDC fan,google,Atomberg,1,16.666666666666668,0.0,0.0,1,16.666666666666668
+BLDC fan,google,Crompton,2,33.333333333333336,0.0,0.0,2,33.333333333333336
+BLDC fan,google,Havells,2,33.333333333333336,0.0,0.0,2,33.333333333333336
+BLDC fan,google,Orient,0,0.0,0.0,0.0,0,0.0
+BLDC fan,google,Polycab,1,16.666666666666668,0.0,0.0,1,16.666666666666668
+BLDC fan,youtube,Atomberg,0,0.0,0.0,0.0,0,0.0
+BLDC fan,youtube,Crompton,0,0.0,0.0,0.0,0,0.0
+BLDC fan,youtube,Havells,0,0.0,0.0,0.0,0,0.0
+BLDC fan,youtube,Orient,0,0.0,0.0,0.0,0,0.0
+BLDC fan,youtube,Polycab,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,google,Atomberg,2,40.0,0.0,0.0,2,40.0
+energy efficient fan,google,Crompton,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,google,Havells,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,google,Orient,3,60.0,0.0,0.0,3,60.0
+energy efficient fan,google,Polycab,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,youtube,Atomberg,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,youtube,Crompton,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,youtube,Havells,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,youtube,Orient,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,youtube,Polycab,0,0.0,0.0,0.0,0,0.0
+smart fan,google,Atomberg,1,33.333333333333336,0.0,0.0,1,33.333333333333336
+smart fan,google,Crompton,0,0.0,0.0,0.0,0,0.0
+smart fan,google,Havells,0,0.0,0.0,0.0,0,0.0
+smart fan,google,Orient,2,66.66666666666667,0.0,0.0,2,66.66666666666667
+smart fan,google,Polycab,0,0.0,0.0,0.0,0,0.0
+smart fan,youtube,Atomberg,0,0.0,0.0,0.0,0,0.0
+smart fan,youtube,Crompton,0,0.0,0.0,0.0,0,0.0
+smart fan,youtube,Havells,0,0.0,0.0,0.0,0,0.0
+smart fan,youtube,Orient,0,0.0,0.0,0.0,0,0.0
+smart fan,youtube,Polycab,0,0.0,0.0,0.0,0,0.0

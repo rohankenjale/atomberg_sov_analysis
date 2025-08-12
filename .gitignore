@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+*.egg-info/
+.tox/
+.ipynb_checkpoints/
+dist/
+build/
+*.so
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Environment variables
+.env
+
+# Config files
+config/config.ini

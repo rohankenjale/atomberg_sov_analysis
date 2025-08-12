@@ -1,0 +1,4 @@
+query,sentiment_label,count
+BLDC fan,positive,6
+energy efficient fan,positive,5
+smart fan,positive,3

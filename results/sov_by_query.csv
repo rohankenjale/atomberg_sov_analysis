@@ -1,0 +1,16 @@
+query,brand,mentions,sov_mentions_pct,engagement,sov_engagement_pct,positive_mentions,sopv_pct
+BLDC fan,Atomberg,1,16.666666666666668,0.0,0.0,1,16.666666666666668
+BLDC fan,Crompton,2,33.333333333333336,0.0,0.0,2,33.333333333333336
+BLDC fan,Havells,2,33.333333333333336,0.0,0.0,2,33.333333333333336
+BLDC fan,Orient,0,0.0,0.0,0.0,0,0.0
+BLDC fan,Polycab,1,16.666666666666668,0.0,0.0,1,16.666666666666668
+energy efficient fan,Atomberg,2,40.0,0.0,0.0,2,40.0
+energy efficient fan,Crompton,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,Havells,0,0.0,0.0,0.0,0,0.0
+energy efficient fan,Orient,3,60.0,0.0,0.0,3,60.0
+energy efficient fan,Polycab,0,0.0,0.0,0.0,0,0.0
+smart fan,Atomberg,1,33.333333333333336,0.0,0.0,1,33.333333333333336
+smart fan,Crompton,0,0.0,0.0,0.0,0,0.0
+smart fan,Havells,0,0.0,0.0,0.0,0,0.0
+smart fan,Orient,2,66.66666666666667,0.0,0.0,2,66.66666666666667
+smart fan,Polycab,0,0.0,0.0,0.0,0,0.0
