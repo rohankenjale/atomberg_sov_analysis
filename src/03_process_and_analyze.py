@@ -66,14 +66,13 @@ def enrich_flags_and_sentiment(df: pd.DataFrame) -> pd.DataFrame:
     df["sentiment_score"] = sent.apply(lambda x: x[1])
 
 
-    required = [f"mention_{b.lower()}" for b in CANONICAL_BRANDS]
-    missing = [c for c in required if c not in df.columns]
+    for b in CANONICAL_BRANDS:
+        col = f"mention_{b.lower()}"
+        if col in df.columns:
+            df = df.drop(columns=[col])
 
-    if missing:
-        flags_df = txt.apply(brand_flags).apply(pd.Series)
-
-        flags_df = flags_df[[c for c in flags_df.columns if c in missing]]
-        df = pd.concat([df, flags_df], axis=1)
+    flags_df = txt.apply(brand_flags).apply(pd.Series)
+    df = pd.concat([df, flags_df], axis=1)
 
     return df
 

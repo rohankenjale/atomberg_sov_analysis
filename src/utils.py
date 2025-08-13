@@ -44,9 +44,9 @@ def sentiment_label_and_score(text: str) -> Tuple[str, float]:
         return ("neutral", 0.0)
     s = sia.polarity_scores(text)
     c = s.get("compound", 0.0)
-    if c > 0.05:
+    if c > 0.5:
         return ("positive", c)
-    elif c < -0.05:
+    elif c < -0.5:
         return ("negative", c)
     else:
         return ("neutral", c)

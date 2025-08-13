@@ -29,7 +29,7 @@ def _setup_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "(KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
     )
     service = ChromeService(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -130,12 +130,12 @@ def _collect_one_query(driver, wait, query, n_results):
                 next_btn = driver.find_element(By.ID, "pnnext")
                 next_btn.click()
                 start += 10
-                time.sleep(random.uniform(2.0, 4.0))
+                time.sleep(random.uniform(5.0, 10.0))
             except Exception:
                 logging.info(f"[{query}] No next page; stopping.")
                 break
 
-        time.sleep(random.uniform(1.5, 3.0))
+        time.sleep(random.uniform(3.0, 6.0))
 
     return collected
 
